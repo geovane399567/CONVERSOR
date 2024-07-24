@@ -5,4 +5,4 @@
 ### O que o programa faz?
 
 - Recebe o valor numérico de temperatura em qualquer unidade
- - Coverte esse valor para diferentes unidades de temperatura (Celsius, Kelvin, Fahrenheit) 
+   - Coverte esse valor para diferentes unidades de temperatura (Celsius, Kelvin, Fahrenheit) 
