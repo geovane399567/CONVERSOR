@@ -6,3 +6,5 @@
 
 - Recebe o valor numérico de temperatura em qualquer unidade
    - Coverte esse valor para diferentes unidades de temperatura (Celsius, Kelvin, Fahrenheit) 
+
+#### Programa feito para estudo da linguagem Python. Utiliza funções, loops, condicionais e operadores matemáticos. 
