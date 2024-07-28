@@ -8,7 +8,7 @@ def celsiusParaFahrenheit():
 
     fahrenheit = (celsius * 1.8) + 32
 
-    print(f"A temperatura covertida é: {fahrenheit} graus Fahrenheit!")
+    print(f"A temperatura covertida é: {fahrenheit:.1f} graus Fahrenheit!")
 
 #celsiusParaFahrenheit()
 
@@ -20,7 +20,7 @@ def fahrenheitParaCelsius():
 
     celsius = (fahrenheit - 32) * (5/9) 
 
-    print(f"A temperatura covertida é: {celsius} graus Celsius!")
+    print(f"A temperatura covertida é: {celsius:.1f} graus Celsius!")
 
 #fahrenheitParaCelsius()
 
@@ -32,7 +32,7 @@ def celsiusParaKelvin():
 
     kelvin = celsius + 273.15 
 
-    print(f"A temperatura covertida é: {kelvin} graus Kelvin!")
+    print(f"A temperatura covertida é: {kelvin:.1f} graus Kelvin!")
 
 # Função que converte Kelvin para Celsius
 
@@ -42,7 +42,7 @@ def kelvinParaCelsius():
 
     celsius =  kelvin - 273.15 
 
-    print(f"A temperatura covertida é: {celsius} graus Celsius!")
+    print(f"A temperatura covertida é: {celsius:.1f} graus Celsius!")
 
 # Função que converte Kelvin para Fahrenheit
 
@@ -52,17 +52,17 @@ def kelvinParaFahrenheit():
 
     fahrenheit = (kelvin - 273.15) * (9/5) + 32
 
-    print(f"A temperatura covertida é: {fahrenheit} graus Fahrenheit!")
+    print(f"A temperatura covertida é: {fahrenheit:.1f} graus Fahrenheit!")
 
 # Função que converte Fahrenheit para Kelvin
 
-def fahrenheitParaKElvin():
+def fahrenheitParaKelvin():
 
     fahrenheit = float(input("Informe a temperatura em Fahrenheit: "))
 
-    kelvin = (fahrenheit - 32) * (5/9) + 273,15
+    kelvin = (fahrenheit - 32) * (5/9) + 273.15
 
-    print(f"A temperatura covertida é: {kelvin} graus Kelvin!")
+    print(f"A temperatura covertida é: {kelvin:.1f} graus Kelvin!")
 
 
 
@@ -105,7 +105,7 @@ def entrada():
            elif opcao == "5":
                kelvinParaFahrenheit()
            elif opcao == "6":
-               fahrenheitParaKElvin()
+               fahrenheitParaKelvin()
            elif opcao == "7":
                break
            else:
